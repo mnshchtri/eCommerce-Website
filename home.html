@@ -10,10 +10,25 @@
     <div class="aqua">
         <span class="percentBar"><h3 class="number">0%</h3> </span>
     </div>
-    <h2>Welcome</h2>
+    <div class ="homepage">
+        <div class ="list">
+            <div class= "listanimation">
+                <ul>
+                    <li style = "--i:6;"><a href="#">Home</a></li>
+                    <li style = "--i:5;"><a href="#">Products</a></li>
+                    <li style = "--i:4;"><a href="#">Research</a></li>
+                    <li style = "--i:3;"><a href="#">Blog</a></li>
+                    <li style = "--i:2;"><a href="#">Login</a></li>
+                    <li style = "--i:1;"><a href="#">Meet the <br>developers</a></li>
+
+
+                </ul>
+            </div>
+        </div>
+    </div> <!--i needd to add div and then div ko bhitra maile tyo home page wala add garnu parcha -->
     <script>
         let i =0;
-        let h2= document.querySelector('h2');
+        let homepage= document.querySelector('.homepage');
         let aqua =document.querySelector('.aqua');
         let body = document.querySelector('body');
         let number = document.querySelector('.number');
@@ -29,12 +44,12 @@
                     aqua.style.opacity = '0';
                     aqua.style.visibility = 'hidden';
                     body.style.background ="#03a9f4";// the background color after the animation is completed 
-                    h2.style.opacity = '1';
-                    h2.style.visibility = 'visible';
+                    homepage.style.opacity = '1';
+                    homepage.style.visibility = 'visible';
                 })
 
             }
-        },10)
+        },100)
     </script>
 </body> 
 </html>

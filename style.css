@@ -3,13 +3,14 @@
     padding:auto;
     box-sizing: border-box;
     font-family: consolas;
+    background: #434750;
 }
 body{
     display:flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: #eee;
+    background: #434750;
     transition: 0.5s;
     transition-delay: 0.5s;
 }
@@ -42,7 +43,7 @@ body{
     display: block;
     width: 10%;
     height: 10px;
-    background: #03a9f4;
+    background: #fff;
     border-radius: 20px;
 
 }
@@ -52,7 +53,7 @@ body{
     top:-70px;
     right: -55px;
     padding: 10px 15px;
-    color: #03a9f4;
+    color: #fff;
     border-radius: 50px;
     border-bottom-left-radius: 0;
     box-shadow: inset 0 10px 5px rgba(0, 0,0,0.075),
@@ -61,7 +62,8 @@ body{
     inset 0 -10px 15px rgba(255,255,255,0.9);
     
 }
-h2
+
+.homepage
 {
     position: absolute;
     visibility: hidden;
@@ -73,5 +75,83 @@ h2
     transition: 0.5s;
     color: #eee;
     transition-delay: 1s;
+    background: #434750;
+
+}
+
+.list{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+ul li{
+    position:  relative;
+    list-style: none;
+    width: 800px;
+    background: #3e3f46;
+    padding: 15px;
+    z-index: var(--i);
+    transition: 0.5s;
+
+}
+ul li:hover{
+    background: #33a3ee ;/* this is the color of the individual blocks when we hover over them*/
+    transform: translateX(-50px);
+}
+
+ul li ::before{
+    content: '';
+    position: absolute;
+    top:0px;
+    left: -40px;
+    width: 40px;
+    height: 100%;
+    background: #2e3133 ;/*this is the color of the tilted part */
+    transform-origin: right;
+    transform: skewY(45deg);
+    transition:0.5s
+}
+
+ul li :hover::before{
+    background: #1f5378;
+
+}
+ul li ::after{
+    content: '';
+    position: absolute;
+    top:-40px ;
+    left: 0;
+    width: 100%;
+    height: 40px;
+    background: #35383e;
+    transform-origin: bottom;
+    transform: skewX(45deg);
+    transition: 0.5s;
+
+}
+
+ul li :hover::after{
+    background: #2982b9;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #999 ;
+    display: block;
+    text-transform: uppercase;
+    transition: 0.5s;
+    letter-spacing: 0.05em;
+    
+
+}
+
+ul li:hover a {
+    color:#fff;
 
 }
