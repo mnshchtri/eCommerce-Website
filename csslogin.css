@@ -23,6 +23,25 @@ body::before{
     background-position:center;
 
 }
+
+body::after{
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: url(c07936197\ \(1\).png);
+    background-attachment: fixed ;
+    background-size: cover;
+    background-position: center;
+    opacity: 0;
+    transition: 0.5s;
+    
+
+}
+
+
+body.signup::after{
+    opacity: 1;
+}
 .container{
     position: relative;
     width: 350px;
@@ -154,4 +173,10 @@ form h2
  }
  form .inputbox input::placeholder{
     color: rgba(255,255,255,0.5);
+ }
+
+ form .inputbox input[type=submit]{
+    background: #2196f3;
+    cursor: pointer ;
+    /*11:28*/
  }
