@@ -35,4 +35,23 @@ The About Us page presents detailed portfolios of each team member involved in t
 
 ### 6. Functional Form
 
-The Functional Form is included to facilitate interaction with visitors. Users can use this form for inquiries, feedback, or to initiate a purchase. It enhan
+The Functional Form is included to facilitate interaction with visitors. Users can use this form for inquiries, feedback, or to initiate a purchase. It enhances the user experience and provides a means of communication between the store and its customers.
+
+## Getting Started
+
+To run the website locally, follow these steps:
+
+1. Clone the repository: `git clone [repository-url]`
+2. Navigate to the project directory: `cd e-commerce-printer-store`
+3. Open the `index.html` file in your preferred web browser.
+
+## Contributors
+
+- [Team Member 1](#) - Full Stack Developer
+- [Team Member 2](#) - UI/UX Designer
+- [Team Member 3](#) - Content Writer
+- [Team Member 4](#) - Project Manager
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
