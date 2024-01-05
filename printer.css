@@ -1,0 +1,110 @@
+/* This style code is only for hearder */
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    background-color: rgb(15, 14, 14);
+}
+h1{
+    margin-left: 30px;
+    color: white;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+
+nav ul li{
+    display: inline-block;
+    margin-right: 50px;
+}
+.navbar h1 a{
+    text-decoration: none;
+    color: white;
+}
+
+.menu li a{
+    text-decoration: none;
+    color: white;
+    transition: 2s;
+}
+.menu li a:hover{
+    text-decoration: underline;
+    color: white;
+}
+.search input{
+    width: 300px;
+    height: 30px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    font-weight: 500;
+    font-size: 18px;
+}
+.search input::placeholder{
+    width: 300px;
+    color: black;
+    text-align: center;
+    font-family: cursive;
+}
+
+
+.search{
+    height: 30px;
+    display: flex;
+    padding: 10px 20px;
+    background-color: white;
+    border-radius: 20px;
+    align-items: center;
+    box-shadow: 0 10px 25px rg(0, 0, 0, 0.3);
+    margin-left: 400px;
+    transition: 1s;
+
+}
+
+.search:hover{
+    transform: scale(1.2);
+}
+
+/* This style code for video */
+
+.video{
+    box-sizing: border-box;
+    display: grid;
+    height: 400px;
+    /* padding-left: 100px;
+    padding-right: 100px; */
+    background-color: black;
+}
+.video video{
+    width: 1519px;
+    /* height: 400px; */
+    /* align-items: right; */
+    /* margin-right: 100px;
+    */
+   
+
+}
+.invideotext span{
+    justify-content: center;
+ align-items: center;
+ font-size: 20px;
+ margin-left: 500px;
+ margin-top: 0px;
+}
+.invideotext p{
+    font-size: 18px;
+    margin-left: 10px;
+}
