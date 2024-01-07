@@ -1,44 +1,82 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <title>Products</title>
-        <link rel="stylesheet" href="cssproduct.css">
-    </head>
-    <body>
-        <header class="header">
-            <a href="home.html" class="logo">Logo</a>
+<html lang="en">
 
-            <label for="" class="icons"></label>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Page</title>
+    <link rel="stylesheet" href="product.css">
+ 
+</head>
 
-            <nav class="navbar">
-                <a href="home.html">Home</a>
-                <a href="#">Product</a>
-                <a href="research.html">Research</a>
-                <a href="blogpage.html">Blog</a>
-                <a href="login.html">Login</a>
-                <a href="developer.html">Developers</a>
-            </nav>
+<body>
+    <!--code from home page containing the headers and nav bar-->
+    <div>
+        <header>
+            <div class="navbar">
+                <h1> <a href="#">PRINTERS</a></h1>
+
+                <div class="search">
+                    <input type="text" placeholder="search...">
+                    <a href="#">
+                        <img src="search-regular-24.png" alt="search img" width="20px">
+                    </a>
+                </div>
+                <nav>
+                    <ul class="menu">
+                        <li><a href="#">Brand</a></li>
+                        <li><a href="#">About us</a></li>
+                        <li><a href="product.html">Product</a></li>
+                        <li><a href="sing.html">Sign up</a></li>
+                        <li><a href="#"><img src="ecommerce-icon.png" alt="ecommerce-icon.image" width="40px"></a></li>
+                    </ul>
+                </nav>
+            </div>
+            
+            <!-- Product Section -->
+            <section class="product-section">
+                <div class="product-row">
+                    <div class="product-item">
+                        <h2>Product 1</h2>
+                        <img src="hpPrinter.png" alt="hpPrinter" width="400">
+                        <p>HP Printer</p>
+                        <br>
+                        <span class="price">Price: $180</span>
+                        <br>
+                        <span class="discount-price">Discounted Price: $Y.YY</span>
+                        <br>
+                        <button class="add-to-cart-btn">Add to Cart</button>
+                    </div>
+
+                    <div class="product-item">
+                        <h2>Product 2</h2>
+                        <img src="epPrinter.png" alt="epPrinter" width="400">
+                        <p>EPSON Printer</p>
+                        <br>
+                        <span class="price">Price: $250</span>
+                        <br>
+                        <span class="discount-price">Discounted Price: $Y.YY</span>
+                        <br>
+                        <button class="add-to-cart-btn">Add to Cart</button>
+                    </div>
+
+                    <div class="product-item">
+                        <h2>Product 3</h2>
+                        <p>Description of Product 3.</p>
+                        <span class="price">Price: $300</span>
+                        <span class="discount-price">Discounted Price: $Y.YY</span>
+                        <button class="add-to-cart-btn">Add to Cart</button>
+                    </div>
+                </div>
+                <!-- Repeat for additional rows as needed -->
+            </section>
+
+
+
         </header>
-        <div class="container">
-            <div class="glass" style="--r:-15;" data-text="Design">
-                <img src="c07936197 (1).png" style ="width: 200px;
-                height: 240px;"> <!--this is for the individual cards of the product-->
-            </div>
-            <div class="glass" style="--r:5;" data-text="Design">
-                <img src="c07936197 (1).png" style ="width: 200px;
-                height: 240px;"> <!--this is for the individual cards of the product-->
-            </div>
-            <div class="glass" style="--r:25;" data-text="Design">
-                <img src="c07936197 (1).png" style ="width: 200px;
-                height: 240px;"> <!--this is for the individual cards of the product-->
-            </div>
-            <div class="glass" style="--r:-15;" data-text="Design">
-                <img src="c07936197 (1).png" style ="width: 200px;
-                height: 240px;"> <!--this is for the individual cards of the product-->
-            </div>
-            
-            
-        </div>
-    </body>
+
+    </div>
+</body>
+
 </html>
