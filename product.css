@@ -150,7 +150,7 @@ nav ul li {
     /* Adjust the scale factor for the hover effect on the image */
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
     /* Adjust as needed for increased shadow on hover */
-    background-color: rgb(138, 129, 215);
+    background-color: transparent;
 }
 
 .product {
