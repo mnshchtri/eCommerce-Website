@@ -154,8 +154,8 @@ nav ul li {
 }
 
 .product {
-    text-align: center;
-    margin: auto;
+    text-align: left;
+    margin: left;
    
 }
 /* ... (your existing styles) */
