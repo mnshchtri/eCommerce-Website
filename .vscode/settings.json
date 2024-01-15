@@ -1,8 +1,0 @@
-{
-<<<<<<< Updated upstream
-    "liveServer.settings.useWebExt": true,
-    "liveServer.settings.CustomBrowser": "chrome"
-=======
-    "liveServer.settings.port": 5501
->>>>>>> Stashed changes
-}
